@@ -16,6 +16,6 @@
   },
 	"scripts": {
 		"build": "babel src -d build",
-		"prepare": "npm run build"
+		"prepublish": "npm run build"
 	}
 }
