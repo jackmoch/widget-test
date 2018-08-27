@@ -15,6 +15,7 @@
     "babel-preset-stage-0": "^6.24.1"
   },
 	"scripts": {
-		"postinstall": "babel src -d build"
+		"build": "babel src -d build",
+		"prepare": "npm run build"
 	}
 }
