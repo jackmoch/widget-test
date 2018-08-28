@@ -16,6 +16,6 @@
   },
 	"scripts": {
 		"build": "babel src -d build",
-		"prepare": "echo hello"
+		"prepare": "npm run build"
 	}
 }
